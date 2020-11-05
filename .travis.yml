@@ -1,7 +1,9 @@
 language: nix
 
 sudo: true
-
+arch:
+  - amd64
+  - ppc64le
 git:
   depth: 1
 
